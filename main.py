@@ -1,5 +1,5 @@
 
-import cv2, time, math, sys, pysrt, getopt
+import cv2, time, math, sys, pysrt, argparse
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 
@@ -20,27 +20,25 @@ OPTIONS:
 	--Subtitles	: Path/name of the subtitles file (.srt file)
 
 USAGE:
-	python3 main.py input_video.mp4 text/subtitles [location] [background(True/False)]
-OR
-	python3 main.py input_video.mp4 "text" "x1,y1,x2,y2,x3,y3,x4,y4" background
+	python3 main.py -i input_video.mp4 -s "text" -l "x1,y1,x2,y2,x3,y3,x4,y4" -b background
 
 	Replace x1,y1,x2,y2,x3,y3,x4,y4 with the corner locations of the subtitle (x1,y1), (x2,y2), (x3,y3) and (x4,y4).
 	For example:
-		python3 main.py input_video.mp4 "How are you?" "20, 150, 330, 230, 20, 350, 330, 330" True
+		python3 main.py -i input_video.mp4 -s "How are you?" -l "20, 150, 330, 230, 20, 350, 330, 330" True
 
 OR
-	python3 main.py input_video.mp4 "Text to overlay" "x,y,height,width,angle" background
+	python3 main.py -i input_video.mp4 -s "Text to overlay" -l "x,y,height,width,angle"
 
 	Replace x,y,height,width,angle with location of rectangle of the subtitle
 	For example:
-		python3 main.py input_video.mp4 "How are you?" "20, 150, 330, 250, -10" True
+		python3 main.py -i input_video.mp4 -s "How are you?" -l "20, 150, 330, 250, -10"
 
 OR
-	python3 main.py input_video.mp4 subtitles.srt "x1,y1,x2,y2,x3,y3,x4,y4" background
+	python3 main.py -i input_video.mp4 -s subtitles.srt -l "x1,y1,x2,y2,x3,y3,x4,y4" -b background
 OR
-	python3 main.py input_video.mp4 subtitles.srt location.txt background
+	python3 main.py -i input_video.mp4 -s subtitles.srt -l location.txt
 OR
-	python3 main.py input_video.mp4 "text or subtitle file only"
+	python3 main.py -i input_video.mp4 -s "text or subtitle file only"
 OR
 	python3 main.py -i input_video.mp4 -o output_video.mp4 -l "x1,y1,x2,y2,x3,y3,x4,y4" -t "text"
 OR
@@ -112,55 +110,25 @@ def get_rect_from_location(location):
 		rect_height = min(int(height/6), int(rect_width/4))
 		return int(width/2 - rect_width/2), int(location[0] - rect_height/2), rect_width, rect_height, 0
 
-font_path='Arial-Unicode-Regular.ttf'
-font_color = "white"
-locations = "0"
-video_path = "input_video.mp4"
-output_path = 'output_video.mp4'
-background = 255
-input_used = False
 
-argumentList = sys.argv[1:]
-options = "h:i:o:p:t:d:f:b:s:"
-long_options = ["Help", "Input", "Output", "Locations", "Text", "Font", "Background", "Subtitles"]
-arguments, values = getopt.getopt(argumentList, options, long_options)
-for currentArgument, currentValue in arguments:
-	if currentArgument in ("-h", "--Help"):
-		print (Help)
-		exit()
-	elif currentArgument in ("-i", "--Input"):
-		video_path = currentValue
-		input_used = True
-	elif currentArgument in ("-o", "--Output"): output_path = currentValue
-	elif currentArgument in ("-l", "--Locations"): locations = currentValue
-	elif currentArgument in ("-t", "--Text"): text = currentValue 
-	elif currentArgument in ("-f", "--Font"): font_path = currentValue
-	elif currentArgument in ("-b", "--Background"): background = currentValue
-	elif currentArgument in ("-s", "--Subtitles"): text = currentValue
-if input_used:
-	pass
-elif len(sys.argv) == 5:  # for five arguments
-	try:
-		video_path = sys.argv[1]
-		locations = sys.argv[2]
-		text = sys.argv[3]
-		background = sys.argv[4]
-	except:
-		pass
-elif len(sys.argv) == 4:  # for four arguments
-	video_path = sys.argv[1]
-	text = sys.argv[2]
-	x = sys.argv[3]  # checking if argument 3 defines location or background
-	if "," in x or ".txt" in x.lower():
-		locations = x
-	else:
-		background = x
-elif len(sys.argv) == 3:  # for three arguments
-	video_path = sys.argv[1]
-	text = sys.argv[2]
-elif len(sys.argv) < 3:
-	print(Help)
-	exit()
+font_color = "white"
+
+parser = argparse.ArgumentParser(description=Help)
+
+parser.add_argument("-i", "--Input", default="input_video.mp4")
+parser.add_argument("-o", "--Output", default='output_video.mp4')
+parser.add_argument("-l", "--Locations", default="0")
+parser.add_argument("-f", "--Font", default='Arial-Unicode-Regular.ttf')
+parser.add_argument("-b", "--Background", default=255)
+parser.add_argument("-s", "--Subtitles", default='')
+args = parser.parse_args()
+
+video_path = args.Input
+output_path = args.Output
+locations = args.Locations
+text = args.Subtitles
+font_path = args.Font
+background = args.Background
 
 subtitles = None
 if text[-4:] == ".srt":
