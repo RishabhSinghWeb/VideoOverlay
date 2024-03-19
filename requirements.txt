@@ -1,0 +1,16 @@
+chardet==5.2.0
+clarabel==0.7.1
+click==8.1.7
+cvxpy==1.4.2
+ecos==2.0.13
+maxrect==0.0.1.dev0
+numpy==1.26.4
+opencv-python==4.9.0.80
+osqp==0.6.5
+pillow==10.2.0
+pybind11==2.11.1
+pysrt==1.1.2
+qdldl==0.1.7.post0
+scipy==1.11.4
+scs==3.2.4.post1
+shapely==2.0.3

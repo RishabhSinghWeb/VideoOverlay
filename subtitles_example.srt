@@ -1,0 +1,428 @@
+1
+00:00:00,275 --> 00:00:00,902
+The first subtitle
+
+2
+00:00:00,985 --> 00:00:00,997
+This is crazy. Second subtitle
+
+3
+00:00:01,112 --> 00:00:01,531
+Third one
+
+4
+00:00:01,614 --> 00:00:01,933
+Here is the fourth subtile, it will
+be autofitted to the given 
+point in the parameters
+
+5
+00:00:05,116 --> 00:00:06,326
+We can talk, sir.
+
+6
+00:00:06,451 --> 00:08:00,205
+- Oh, I see. So it's personal?
+- No, you intimidate them.
+
+7
+00:00:08,288 --> 00:00:09,458
+Good God, These are subtitles which 
+works directly with the videos.
+
+8
+00:00:13,583 --> 00:00:16,002
+I mean, this is the same format as any other subtitles.
+
+9
+00:00:26,127 --> 00:0:28,880
+- I thought of you as a soldier first.
+- I'm an airman.
+
+10
+00:00:28,964 --> 00:00:30,715
+You have, actually,
+excellent bone structure, there.
+
+11
+00:01:10,799 --> 00:01:13,593
+I'm kind of having a hard time
+not looking at you now.
+
+12
+00:01:13,677 --> 00:01:16,471
+Is that weird? Come on, it's okay, laugh.
+
+13
+00:01:16,846 --> 00:01:19,349
+- Sir, I have a question to ask.
+- Yes, please.
+
+14
+00:02:19,474 --> 00:02:23,144
+Is it true you went 12 for 12
+with last year's Maxim cover models?
+
+15
+00:02:23,270 --> 00:02:25,355
+That is an excellent question.
+Yes and no.
+
+16
+00:02:25,480 --> 00:02:26,898
+March and I had a scheduling conflict,
+
+17
+00:02:26,982 --> 00:02:29,901
+but fortunately,
+the Christmas cover was twins.
+
+18
+00:02:29,985 --> 00:02:32,862
+Anything else? You're kidding me
+with the hand up, right?
+
+19
+00:02:32,988 --> 00:02:36,825
+- Is it cool if I take a picture with you?
+- Yes. It's very cool.
+
+20
+00:02:40,412 --> 00:02:41,746
+All right.
+
+21
+00:02:41,830 --> 00:02:43,957
+I don't want to see this
+on your MySpace page.
+
+22
+00:02:44,040 --> 00:02:45,625
+Please, no gang signs.
+
+23
+00:02:45,709 --> 00:02:47,294
+No, throw it up. I'm kidding.
+
+24
+00:02:47,377 --> 00:02:50,338
+Yeah, peace. I love peace.
+I'd be out of a job with peace.
+
+25
+00:02:50,505 --> 00:02:54,509
+Come on. Hurry up. Just click it.
+Don't change any settings. Just click it.
+
+26
+00:03:00,098 --> 00:03:02,183
+- What's going on?
+- Contact left!
+
+27
+00:03:02,267 --> 00:03:03,935
+What have we got?
+
+28
+00:03:05,186 --> 00:03:07,272
+Jimmy, stay with Stark!
+
+29
+00:03:07,355 --> 00:03:08,398
+- Stay down!
+- Yeah.
+
+30
+00:03:14,738 --> 00:03:16,281
+Son of a bitch!
+
+31
+00:03:17,907 --> 00:03:20,744
+- Wait, wait, wait! Give me a gun!
+- Stay here!
+
+32
+00:03:49,981 --> 00:03:51,399
+Whoa!
+
+33
+00:04:40,824 --> 00:04:42,117
+Tony Stark.
+
+34
+00:04:43,618 --> 00:04:46,037
+Visionary. Genius.
+
+35
+00:04:46,871 --> 00:04:48,790
+American patriot.
+
+36
+00:04:48,873 --> 00:04:49,999
+Even from an early age,
+
+37
+00:04:50,083 --> 00:04:52,544
+the son of legendary
+weapons developer Howard Stark
+
+38
+00:04:52,627 --> 00:04:56,214
+quickly stole the spotlight
+with his brilliant and unique mind.
+
+39
+00:04:56,297 --> 00:04:59,718
+At age four,
+he built his first circuit board.
+
+40
+00:04:59,801 --> 00:05:01,970
+At age six, his first engine.
+
+41
+00:05:02,554 --> 00:05:06,474
+And at 17, he graduated
+summa cum laude from MIT.
+
+42
+00:05:07,434 --> 00:05:09,853
+Then, the passing of a titan.
+
+43
+00:05:11,438 --> 00:05:14,357
+Howard Stark's lifelong friend
+and ally, Obadiah Stane,
+
+44
+00:05:14,441 --> 00:05:17,861
+steps in to help fill the gap
+left by the legendary founder,
+
+45
+00:05:18,069 --> 00:05:21,406
+until, at age 21, the prodigal son returns
+
+46
+00:05:21,489 --> 00:05:24,868
+and is anointed the new CEO
+of Stark industries.
+
+47
+00:05:24,951 --> 00:05:26,286
+With the keys to the kingdom,
+
+48
+00:05:26,369 --> 00:05:29,164
+Tony ushers in a new era
+for his father's legacy,
+
+49
+00:05:29,247 --> 00:05:33,293
+creating smarter weapons,
+advanced robotics, satellite targeting.
+
+50
+00:05:33,376 --> 00:05:37,255
+Today, Tony Stark has changed
+the face of the weapons industry
+
+51
+00:05:37,338 --> 00:05:40,133
+by ensuring freedom
+and protecting America
+
+52
+00:05:40,216 --> 00:05:42,761
+and her interests around the globe.
+
+53
+00:05:51,102 --> 00:05:53,438
+As liaison to Stark Industries,
+
+54
+00:05:54,063 --> 00:05:57,776
+I've had the unique privilege
+of serving with a real patriot.
+
+55
+00:05:57,942 --> 00:06:01,613
+He is my friend
+and he is my great mentor.
+
+56
+00:06:02,113 --> 00:06:04,324
+Ladies and gentlemen, it is my honor
+
+57
+00:06:04,407 --> 00:06:08,703
+to present this year's Apogee Award
+to Mr. Tony Stark.
+
+58
+00:06:15,960 --> 00:06:17,253
+Tony?
+
+59
+00:06:29,516 --> 00:06:32,143
+- Thank you, Colonel.
+- Thanks for the save.
+
+60
+00:06:32,227 --> 00:06:35,897
+This is beautiful. Thank you.
+Thank you all very much.
+
+61
+00:06:35,980 --> 00:06:37,398
+This is wonderful.
+
+62
+00:06:39,317 --> 00:06:41,319
+Well, I'm not Tony Stark.
+
+63
+00:06:43,196 --> 00:06:48,326
+But if I were Tony,
+I would tell you how honored I feel
+
+64
+00:06:48,660 --> 00:06:53,373
+and what a joy it is
+to receive this very prestigious award.
+
+65
+00:06:53,832 --> 00:06:55,250
+Tony, you know...
+
+66
+00:06:55,333 --> 00:06:59,254
+The best thing about Tony
+is also the worst thing.
+
+67
+00:06:59,337 --> 00:07:00,713
+He's always working.
+
+68
+00:07:02,841 --> 00:07:06,219
+Work it! Come on!
+
+69
+00:07:09,764 --> 00:07:13,351
+- We should just stay till the morning.
+- You are unbelievable.
+
+70
+00:07:13,434 --> 00:07:16,688
+- Oh, no! Did they rope you into this?
+- Nobody roped me into anything!
+
+71
+00:07:16,771 --> 00:07:17,856
+- I'm so sorry.
+- But they told me that
+
+72
+00:07:17,939 --> 00:07:20,692
+if I presented you with an award,
+you'd be deeply honored.
+
+73
+00:07:20,775 --> 00:07:22,694
+Of course I'd be deeply honored.
+And it's you, that's great.
+
+74
+00:07:22,777 --> 00:07:24,529
+- So when do we do it?
+- It's right here.
+
+75
+00:07:24,612 --> 00:07:26,781
+- Here you go.
+- There it is. That was easy.
+
+76
+00:07:26,865 --> 00:07:28,199
+- I'm so sorry.
+- Yeah, it's okay.
+
+77
+00:07:28,283 --> 00:07:30,618
+Wow! Would you look at that?
+That's something else.
+
+78
+00:07:30,702 --> 00:07:32,287
+I don't have any of those
+floating around.
+
+79
+00:07:32,370 --> 00:07:34,455
+We're gonna let it ride!
+
+80
+00:07:35,540 --> 00:07:37,625
+Give me a hand, will you?
+Give me a little something-something.
+
+81
+00:07:37,750 --> 00:07:38,877
+Okay, you, too.
+
+82
+00:07:38,960 --> 00:07:40,795
+- I don't blow on a man's dice.
+- Come on, honey bear.
+
+83
+00:07:40,920 --> 00:07:43,464
+There it is.
+Lieutenant Colonel Rhodes rolls! And...
+
+84
+00:07:43,548 --> 00:07:44,799
+Two craps. Line away.
+
+85
+00:07:44,883 --> 00:07:46,634
+- That's what happens.
+- Worse things have happened.
+
+86
+00:07:46,759 --> 00:07:48,136
+I think we're gonna be fine.
+Color me up, will you?
+
+87
+00:07:48,678 --> 00:07:49,721
+- This is where I exit.
+- All right.
+
+88
+00:07:49,804 --> 00:07:50,847
+Tomorrow, don't be late.
+
+89
+00:07:50,972 --> 00:07:52,098
+- Yeah, you can count on it.
+- I'm serious!
+
+90
+00:07:52,181 --> 00:07:53,474
+I know, I know.
+
+91
+00:07:53,600 --> 00:07:57,145
+Render unto Caesar
+that which is Caesar's. There you go.
+
+92
+00:08:01,482 --> 00:08:03,818
+Mr. Stark! Excuse me, Mr. Stark!
+
+93
+00:08:04,152 --> 00:08:06,362
+Christine Everhart,
+Vanity Fair magazine.
