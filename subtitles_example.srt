@@ -1,14 +1,14 @@
 1
 00:00:00,275 --> 00:00:00,902
-The first subtitle
+A
 
 2
-00:00:00,985 --> 00:00:00,997
-This is crazy. Second subtitle
+00:00:00,985 --> 00:00:01,097
+ひらがな - Hiragana,你好 히라가나. Second subtitle
 
 3
 00:00:01,112 --> 00:00:01,531
-Third one
+Third one नमस्ते مرحبًا
 
 4
 00:00:01,614 --> 00:00:01,933
@@ -21,7 +21,7 @@ point in the parameters
 We can talk, sir.
 
 6
-00:00:06,451 --> 00:08:00,205
+00:00:06,451 --> 00:00:08,205
 - Oh, I see. So it's personal?
 - No, you intimidate them.
 
